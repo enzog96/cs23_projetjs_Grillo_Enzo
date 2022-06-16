@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/759d144f8f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./public/css/app.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top row" role="navigation">
+        <div class="container-fluid ">
+            <div class="col">
+          <img id="nav-img" onclick="myFunction()" class="m-3" src="./public/img/logo.png" alt="">
+        </div>
+          <button id="nav-toggler" class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span  class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse"  id="navbarText">
+            <div class="col">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+              <li class="nav-item">
+                <a id="nav-a1" class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-a2" class="nav-link" href="#section2">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-a3" class="nav-link" href="#section4">SHOP</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-a4" class="nav-link" href="#section5">TESTIMONIAL</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-a5" class="nav-link" href="#section6">JOURNAL</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-a6" class="nav-link" href="#section7">CONTACT</a>
+              </li>
+            </ul>
+        </div>
+            <div id="nav-i" class="collapse navbar-collapse col justify-content-end"  id="navbarText">
+                <ul class="navbar-nav mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <i><i class="fa-solid fa-magnifying-glass m-2"></i></i>
+                    </li>
+                    <li class="nav-item">
+                        <i><i class="fa-solid fa-user m-2"></i></i>
+                    </li>
+                    <li class="nav-item">
+                        <i><i class="fa-solid fa-heart m-2"></i></i>
+                    </li>
+                    <li class="nav-item">
+                        <i><i class="fa-solid fa-cart-shopping m-2"></i></i>
+                    </li>
+                </ul>
+                
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section id="section-first" class="position-relative d-flex flex-wrap">
+        <div id="divicons" class="position-absolute">
+            <div class="m-2"><i class="fa-brands fa-twitter"></i></div>
+            <div class="m-2"><i class="fa-solid fa-globe"></i></div>
+            <div class="m-2"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="m-2"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="m-2"><p id="rotateP">FOLLOW US</p></div>
+        </div>
+        <div id="divtext" class="position-absolute"> 
+            <p>- NEW COLLECTION 2019</p>
+            <h1><strong>Brown leather <br>women's bags</strong></h1>
+            <p>Lorem Ipsum is imply dummy text of the printing <br>and typesetting industry printing and industry.</p>
+            <div id="text1"  class="d-flex">
+                <p class="text-decoration-line-through">Regular $69.00</p>
+                <p>Just $59.00</p>
+            </div>
+            <button id="btn">SHOP WOMEN</button>
+
+            <h6 id="h6" class="position-absolute">WOMENS</h6> 
+
+        </div>
+        <div class="content position-relative">
+            <div class="images">
+                <img src="./public/img/collect/one-page-slider-01.jpg" alt="">
+                <img src="./public/img/collect/one-page-collection-03.jpg" alt="">
+                <img src="./public/img/collect/one-page-collection-05.jpg" alt="">
+                <img src="./public/img/collect/one-page-collection-06.jpg" alt="">
+            </div>
+        </div>
+          <div id="carousel-btn" class="btm-sliders d-flex flex-column position-absolute">
+            <span class="text-black text-decoration-line-through" onclick="btm_slide(1)">1</span>
+            <span class="text-black text-decoration-line-through" onclick="btm_slide(2)">2</span>
+            <span class="text-black text-decoration-line-through" onclick="btm_slide(3)">3</span>
+            <span class="text-black text-decoration-line-through" onclick="btm_slide(4)">4</span>
+          </div>
+              
+      </section>
+
+      
+        <div class="container p-5 text-secondary">
+            <ul class="justify-content-between d-flex flex-wrap  text-center list-unstyled">
+                <li class="d-flex gap-3 justify-content-center m-2 ">
+                    <i class="fa-solid fa-globe align-self-center"></i>
+                    <p class="align-self-center m-0">FREE STANDARD SHIPPING</p>
+                </li>
+                <li class="d-flex gap-3 justify-content-center m-2">
+                    <i class="fa-solid fa-wallet align-self-center"></i>
+                    <p class="align-self-center m-0">100% MONEY BACK</p>
+                </li>
+                <li class="d-flex gap-3 justify-content-center m-2">
+                    <i class="fa-solid fa-gift align-self-center"></i>
+                    <p class="align-self-center m-0">GIFTS FOR MEMBERS</p>
+                </li>
+            </ul>
+        </div>
+        
+
+        <section id="section2">
+            <div class="d-flex flex-row flex-wrap m-0 m-auto">
+                <div id="section2-div">
+                    <img class=" w-100 p-2" src="./public/img/collect/one-page-collection-06.jpg" alt="">
+                </div>
+                <div id="section2-div">
+                    <img class=" w-100 p-2" src="./public/img/collect/one-page-collection-05.jpg" alt="">
+                </div>
+                <div id="section2-div">
+                    <img class=" w-100 p-2" src="./public/img/collect/one-page-collection-01.jpg" alt="">
+                </div>
+                <div id="section2-div">
+                    <img class=" w-100 p-2" src="./public/img/collect/one-page-collection-03.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <div id="company" class="d-flex flex-wrap m-auto justify-content-center w-75">
+            <div class="m-auto">
+                <p><strong>- ABOUT COMPANY</strong></p>
+                <h4>The principle of the design - the harmony,<br>rhythm and balance are all the same with <br>interior and fashion design</h4>
+            </div>
+            <div class="m-auto">
+                <p>The standard chunk of lorem ipsum used since the 1500s os reproduced below for <br>those interested sections and 1.10 from de finibus bonorum et malorum by cicero are <br>also reproduced in their exact original form, accompanied English versions from the <br>1914 translation by rackham.It is a long & established fact a reader will be distracted <br> the readable content of a page when looking at it's layout.</p>
+            </div>
+        </div>
+
+
+        <section id="section3">
+            <div class=" m-auto d-flex flex-wrap justify-content-center">
+                <div id="section3-div">
+                    <img class="w-100" src="./public/img/collect/one-page-img-03.png" alt="">
+                </div>
+                <div id="section3-div2" >
+                    <p><strong>- FASHION BRAND THAT CONTEMPORARY</strong></p>
+                    <h2>Latest celebrity style fashion <br>and outfit trends</h2>
+                    <br>
+                    <p>The standard chunk of lorem ipsum used since the 1500s is <br>reproduced below for those interested sections and 1.10 from de <br>finisbus bonorum et malorum by cicero are also reproduced in their <br>exact original form, accompanied english version from the 1914 <br>translation by rackham. It is a long & established fact a reader will be <br>distracted the readable content of a page when looking</p>
+                    <br>
+                    <p>It has has survived not only five centuries, but its also the leap into <br>electronic typesetting leap into life electronic typesetting survived not <br>only five centuries, but also into electronic typesetting.</p>
+                    <button id="btn">MORE INFORMATION</button>
+                </div>
+            </div>
+        </section>
+
+        <div id="small-text" class=" container d-grid justify-content-center text-center">
+            <h3>Recent Products</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry printing and industry</p>
+            
+        </div>
+
+        <section id="section4">
+         
+        </section>
+
+        <section id="section5">
+            <div class=" container d-grid justify-content-center text-center">
+                <h3>Testimonial</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry printing and industry</p>
+            </div>
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active d-flex flex-wrap justify-content-center">
+                    <div>
+                        <div id="card">
+                            <h5>WE LOVE DIGITAL AGENCIES</h5>
+                            <p>Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. Lorem <br>Ipsum has been the industry's standard <br>dummy text ever since.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img id="carousel-img" src="./public/img/testimonials/image-1-1.png" alt="">
+                            <p class="m-4"><strong>Mattie Stepanek</strong> <br>Manager</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="card">
+                        <h5>WE LOVE FROM LAYOUT</h5>
+                        <p>Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. Lorem <br>Ipsum has been the industry's standard <br>dummy text ever since.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img id="carousel-img" src="./public/img/testimonials/image-2.png" alt="">
+                            <p class="m-4"><strong>Shoko Mugikura</strong> <br>Designer</p>
+                        </div>  
+                    </div>
+                    <div>
+                        <div id="card">
+                        <h5>I LOVE CREATIVE DESIGN</h5>
+                        <p>Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. Lorem <br>Ipsum has been the industry's standard <br>dummy text ever since.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img id="carousel-img" src="./public/img/testimonials/image-3.png" alt="">
+                            <p class="m-4"><strong>Alexander Harvard</strong> <br>Director</p>
+                        </div>  
+                    </div>
+                  </div>
+                  <div class="carousel-item d-flex flex-wrap justify-content-center">
+                    <div >
+                        <div id="card">
+                            <h5>WE LOVE DIGITAL AGENCIES</h5>
+                            <p>Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. Lorem <br>Ipsum has been the industry's standard <br>dummy text ever since.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img id="carousel-img" src="./public/img/testimonials/image-1-1.png" alt="">
+                            <p class="m-4"><strong>Mattie Stepanek</strong> <br>Manager</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="card">
+                        <h5>WE LOVE FROM LAYOUT</h5>
+                        <p>Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. Lorem <br>Ipsum has been the industry's standard <br>dummy text ever since.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img id="carousel-img" src="./public/img/testimonials/image-2.png" alt="">
+                            <p class="m-4"><strong>Shoko Mugikura</strong> <br>Designer</p>
+                        </div>  
+                    </div>
+                    <div>
+                        <div id="card">
+                        <h5>I LOVE CREATIVE DESIGN</h5>
+                        <p>Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. Lorem <br>Ipsum has been the industry's standard <br>dummy text ever since.</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img id="carousel-img" src="./public/img/testimonials/image-3.png" alt="">
+                            <p class="m-4"><strong>Alexander Harvard</strong> <br>Director</p>
+                        </div>  
+                    </div>
+                  </div>
+            
+                  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                  
+                      
+                  
+                  </div> 
+                  </div>
+               
+            
+
+        </section>
+
+        <div id="small-text" class=" container d-grid justify-content-center text-center">
+            <h3>Latest Blog</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry printing and industry</p>
+        </div>
+
+        <section id="section6">
+            <div class="d-flex flex-wrap m-0 m-auto gap-3">
+                <div id="section6-div">
+                    <img class="w-100" src="./public/img/blog/blog-listing-img63-578x771.jpg" alt="">
+                    <p></p>
+                    <button id="btn">PHOTOGRAPHY</button>
+                    <p></p>
+                    <p><strong>Fashion is part of culture and it's about <br>more than just dress</strong></p>
+                    <p>- By Alexis Richards</p>
+                </div>
+                <div id="section6-div">
+                    <img class="w-100" src="./public/img/blog/blog-listing-img58-578x771.jpg" alt="">
+                    <p></p>
+                    <button id="btn">PHOTOGRAPHY</button>
+                    <p></p>
+                    <p><strong>I design to make women feel confident <br>and beautiful fashion</strong></p>
+                    <p>- By Alexis Richards</p>
+                </div>
+                <div id="section6-div">
+                    <img class="w-100" src="./public/img/blog/blog-listing-img59-578x771.jpg" alt="">
+                    <p></p>
+                    <button id="btn">PHOTOGRAPHY</button>
+                    <p></p>
+                    <p><strong>A designer is only as good as the star <br>who wears her clothes</strong></p>
+                    <p>- By Alexis Richards</p>
+                </div>
+                <div id="section6-div">
+                    <img class="w-100" src="./public/img/blog/blog-listing-img60-578x771.jpg" alt="">
+                    <p></p>
+                    <button id="btn">PHOTOGRAPHY</button>
+                    <p></p>
+                    <p><strong>Chandeliers are marvels of drop dead <br> showiness the jewellery</strong></p>
+                    <p>- By Alexis Richards</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section7">
+            <div class="d-flex flex-wrap">
+            <div id="section7-img"></div>
+            <div id="section7-contact" class=" d-flex flex-column flex-wrap justify-content-center align-items-center">
+            <div class="d-flex align-items-center gap-4 m-0 ">
+                <div>
+                    <i class="fa-solid fa-location-dot "></i>
+                </div>
+                <div>
+                    <h4>Address details</h4>
+                    <p>401 Broadway, 24th Floor <br>Iceland, Iceland 10013</p>
+                </div>
+            </div>
+            <div class="d-flex align-items-center gap-4 m-0">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                    <h4>Email address</h4>
+                    <p>info@domain.com<br>info@domain.com</p>
+                </div>
+            </div>
+            <div class="d-flex align-items-center gap-4 m-0">
+                <div>
+                    <i class="fa-solid fa-phone-flip"></i>
+                </div>
+                <div>
+                    <h4>Telephone number</h4>
+                    <p>+ 1-800-222-000<br>+ 1-600-123-000</p>
+                </div>
+            </div>
+        </div>
+        <div id="section7-bg" class="text-white d-flex flex-column justify-content-center align-items-center">
+            
+                <h5>Simply fill out the form and we'll be in touch with <br>you soon!</h5>
+                <input type="text" class="input w-75 border-0 border-bottom text-white bg-transparent " placeholder="Name*">
+                <p></p>
+                <input type="text" class="input w-75 border-0 border-bottom text-white bg-transparent " placeholder="E-mail*">
+                <p></p>
+                <input type="text" class="input w-75 border-0 border-bottom text-white bg-transparent " placeholder="Subject">
+                <p></p>
+                <input type="text" class="input w-75 border-0 border-bottom text-white bg-transparent " placeholder="Your Message">
+                <p></p>
+                <button class="text-dark">SEND MESSAGE</button>
+            
+        </div>
+        </div>
+
+        </section>
+
+        <div id="small-text" class=" container d-grid justify-content-center text-center p-5">
+            <h6>- INSTAGRAM @HONGO FASHION</h6>
+        </div>
+
+        <section id="section8" >
+            <div class=" bg-dark text-white ">
+                <div id="section8-div1" class="row">
+                <div class="col d-flex flex-wrap align-center p-0">
+                    <p class="m-0 align-self-center">LAST CHANCE TO WIN OUR DISCOUNT !</p>
+                    <input class="bg-dark text-white border-0 " type="text" placeholder="Enter your email...">
+                </div>
+                <div class="col d-flex flex justify-content-end align-self-center">
+                    <p class="m-0 align-self-center">ON SOCIAL NETWORKS</p>
+                    <i class="fa-brands fa-facebook-f p-2"></i>
+                    <i class="fa-brands fa-twitter p-2"></i>
+                    <i class="fa-brands fa-linkedin-in p-2"></i>
+                    <i class="fa-brands fa-instagram p-2"></i>
+                    <i class="fa-brands fa-pinterest-p p-2"></i>
+
+                </div>
+            </div>
+            </div>
+            <div>
+            <div class="d-flex flex-wrap bg-dark text-white p-0 ">
+                <div id="footer" class="d-flex bg-dark text-white p-0">
+                <div id="footer-div" class="col-3">
+                    <img src="./public/img/footer-logo.png" alt="">
+                    <p></p>
+                    <p id="footer-p">Lorem Ipsum is simply dummy text of <br>the printing and the typesetting industry <br>lorem Ipsum is simply dummy text of <br>industry lorem ipsum is simply <br>dummy typesetting text.</p>
+                </div>
+                <div id="footer-div" class="col-2">
+                    <h6>CATEGORIES</h6>
+                    <br>
+                    <p>Women collection</p>
+                    <p>Men collection</p>
+                    <p>Child collection</p>
+                    <p>Accessories</p>
+                    <p>Leather shoes</p>
+                </div>
+                <div id="footer-div" class="col-2">
+                    <h6>CUSTOMER</h6>
+                    <br>
+                    <p>Help and support</p>
+                    <p>Shipping and delivery</p>
+                    <p>Payment method</p>
+                    <p>Terms and conditions</p>
+                    <p>Privacy policy</p>
+                </div>
+                <div id="footer-div" class="col-2">
+                    <h6>COMPANY</h6>
+                    <br>
+                    <p>About company</p>
+                    <p>Our services</p>
+                    <p>Get the voucher</p>
+                    <p>Store locator</p>
+                    <p>Contact us</p>
+                </div>
+                <div id="footer-div" class="col-3">
+                        <div id="footer-img">
+                            <h6>FOLLOW US ON INSTAGRAM</h6>
+                            <br>
+                            <div id="footer-div" class="d-flex flex-wrap gap-2 justify-content-center">
+                                <img id="section8-img" class="" src="./public/img/footer/infa-01.jpg" alt="">
+                                <img id="section8-img" class="" src="./public/img/footer/infa-02.jpg" alt="">
+                                <img id="section8-img" class="" src="./public/img/footer/infa-03.jpg" alt="">
+                                <img id="section8-img" class="" src="./public/img/footer/infa-04.jpg" alt="">
+                                <img id="section8-img" class="" src="./public/img/footer/infa-05.jpg" alt="">
+                                <img id="section8-img" class="" src="./public/img/footer/infa-06.jpg" alt="">
+                                <img id="section8-img" class="" src="./public/img/footer/infa-07.jpg" alt="">
+                                <img id="section8-img" class="" src="./public/img/footer/infa-08.jpg" alt="">
+                            </div>
+                        </div>   
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="footer-last1" class="bg-black" >
+        <div id="footer-last" class="row p-0">
+            <div class="col d-flex justify-self-start p-0">
+                <p class="text-white  m-0">@ 2022 HONGO is Proudly Powered by ThemeZAA</p>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <img src="./public/img/footer-payment-icon.png" alt="">
+            </div>
+        </div>
+        </div>
+
+        </section>
+
+
+
+    <script src="https://kit.fontawesome.com/759d144f8f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="./public/js/main.js"></script>
+</body>
+</html>
