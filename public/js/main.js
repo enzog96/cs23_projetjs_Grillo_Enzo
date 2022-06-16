@@ -5,6 +5,7 @@ let newDiv = document.createElement("div")
 let productbtn1 = document.createElement("button")
 let productbtn2 = document.createElement("button")
 let total = 0
+let total2 = 0
 
 class Produits{
     constructor(nom,prix,prix2,img1,img2,img){
@@ -92,14 +93,23 @@ class Produits{
                     let heart = document.getElementById("heart")
                     total ++ 
                     heart.innerText = total
+                })
+                productbtn2.addEventListener("click", function(){
+                    let shop = document.getElementById("shop")
+                    total2 ++ 
+                    shop.innerText = total2
+                })
                 
 
-                })
 
-            })   
+
+            })  
+            
         }      
     }
 }
+
+
 
 let produit1 = new Produits("Textured Sweater","$50.00","","fashion-recent-products-01-1-1.jpg","fashion-recent-products-01-a-1-1.jpg","fashion-recent-products-01-1-1.jpg")
 let produit2 = new Produits("Traveller Shirt","$510.00","","fashion-recent-products-02-1-1.jpg","fashion-recent-products-02-a-1-1-1.jpg","fashion-recent-products-02-1-1.jpg")
@@ -201,8 +211,8 @@ let sectionbtn2 = document.getElementById("sectionbtn2")
 let hidden1 = document.getElementById("section5div1")
 let hidden2 = document.getElementById("section5div2")
 
-sectionbtn1.addEventListener("click", function(){
-    hidden1.classList.toggle("d-none")
+sectionbtn2.addEventListener("click", function(){
+    hidden1.classList.toggle("none")
     hidden2.classList.toggle("block")
 
 })

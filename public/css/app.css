@@ -10236,6 +10236,10 @@ body {
   width: 100%;
 }
 
+.image-open {
+  animation: scaleUp 2s forwards linear;
+}
+
 @media (min-width: 740px) and (max-width: 1024px) {
   #section7-contact {
     width: 75vh !important;
@@ -10340,6 +10344,10 @@ body {
 
   #section3 br {
     display: none;
+  }
+
+  #section7-btn {
+    margin-left: 8vh !important;
   }
 }
 @media (min-width: 320px) and (max-width: 739px) {
@@ -10549,6 +10557,10 @@ body {
   background-color: #F7F2ED;
 }
 
+#section7-btn {
+  margin-left: 10vh;
+}
+
 #section7 {
   width: 100%;
   margin-bottom: 10vh;
@@ -10571,6 +10583,10 @@ body {
 #section7-contact {
   width: 25%;
   background-color: #F7F2ED;
+}
+
+#section7-btn {
+  margin-left: 10vh;
 }
 
 #section8 {
