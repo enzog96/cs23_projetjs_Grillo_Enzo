@@ -4,6 +4,7 @@ let section = document.getElementById("section4")
 let newDiv = document.createElement("div")
 let productbtn1 = document.createElement("button")
 let productbtn2 = document.createElement("button")
+let total = 0
 
 class Produits{
     constructor(nom,prix,prix2,img1,img2,img){
@@ -86,6 +87,14 @@ class Produits{
                 productbtn1.appendChild(icon2)
                 productbtn2.appendChild(icon1)
                 productbtn3.appendChild(icon3)
+
+                productbtn3.addEventListener("click", function(){
+                    let heart = document.getElementById("heart")
+                    total ++ 
+                    heart.innerText = total
+                
+
+                })
 
             })   
         }      
@@ -187,4 +196,13 @@ window.onscroll = () => {
 
   }
 
-   
+let sectionbtn1 = document.getElementById("sectionbtn1")
+let sectionbtn2 = document.getElementById("sectionbtn2")
+let hidden1 = document.getElementById("section5div1")
+let hidden2 = document.getElementById("section5div2")
+
+sectionbtn1.addEventListener("click", function(){
+    hidden1.classList.toggle("d-none")
+    hidden2.classList.toggle("block")
+
+})

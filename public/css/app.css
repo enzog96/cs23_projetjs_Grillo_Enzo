@@ -10395,7 +10395,7 @@ body {
 
   #carousel-btn {
     top: -1vh;
-    right: 3vh;
+    right: -1vh;
   }
 
   .content {
@@ -10409,7 +10409,7 @@ body {
 
   #divicons {
     top: 1vh;
-    right: 3vh;
+    left: 1vh;
     margin: auto !important;
   }
 
