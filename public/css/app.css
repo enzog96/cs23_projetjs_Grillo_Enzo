@@ -10198,6 +10198,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: white;
+  font-family: "Ubuntu" !important;
 }
 
 .dark-mode {
@@ -10234,10 +10235,6 @@ body {
 
 #section-first {
   width: 100%;
-}
-
-.image-open {
-  animation: scaleUp 2s forwards linear;
 }
 
 @media (min-width: 740px) and (max-width: 1024px) {
